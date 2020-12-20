@@ -1,7 +1,7 @@
 apt update -y
 apt upgrade -y
 apt install git -y
-pkg update && pkg upgrade
+pkg install unzip -y
 git clone https://github.com/Bento466/Ehem
 pkg install wget
 pkg install ffmpeg
