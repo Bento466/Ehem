@@ -1,7 +1,8 @@
-apt update
-apt upgrade
-apt install
+apt update -y
+apt upgrade -y
+apt install git -y
 pkg update && pkg upgrade
+git clone https://github.com/Bento466/Ehem
 pkg install wget
 pkg install ffmpeg
 pkg install nodejs
